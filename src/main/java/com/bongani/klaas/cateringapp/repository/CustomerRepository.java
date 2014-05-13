@@ -7,15 +7,13 @@
 package com.bongani.klaas.cateringapp.repository;
 
 import com.bongani.klaas.cateringapp.domain.Customer;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
  *
  * @author bongani
  */
-public interface CustomerRepository extends repository<Customer, Long>
+public interface CustomerRepository extends JpaRepository<Customer, Long>
 {
-
-    public void save(Customer cust);
-
     
 }

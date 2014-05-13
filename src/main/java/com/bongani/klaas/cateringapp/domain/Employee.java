@@ -41,14 +41,6 @@ public class Employee implements Serializable {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    public Address getEmployeeAddress() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    public Address getEmployeeAddress() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
     public static class Builder{
     private Long id;
     private String name;
@@ -87,19 +79,11 @@ public class Employee implements Serializable {
             return new Employee(this);
         }
 
-        public Object EmployeeAddress(Address address) {
-            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        public Builder EmployeeAddress(Address address) {
+            address = address;
+         return this;
         }
-
-        public Object EmployeeAddress(Address address) {
-            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-        }
-
-        public Object EmployeeAddress(Address address) {
-            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-        }
-
-        
+       
     }
     public Long getId() {
         return id;

@@ -8,20 +8,14 @@ package com.bongani.klaas.cateringapp.repository;
 
 import com.bongani.klaas.cateringapp.domain.Employee;
 import com.bongani.klaas.cateringapp.domain.Food;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 
 /**
  *
  * @author bongani
  */
-public interface EmployeeRepository extends repository <Employee, Long>
+public interface EmployeeRepository extends JpaRepository<Employee, Long>
 {
 
-    public void save(Employee e);
-
-    public Employee findOne(Long id);
-
-    public void delete(Employee employee);
-
-    
 }

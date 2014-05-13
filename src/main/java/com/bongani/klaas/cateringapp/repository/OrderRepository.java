@@ -6,15 +6,14 @@
 
 package com.bongani.klaas.cateringapp.repository;
 import com.bongani.klaas.cateringapp.domain.Order;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 
 /**
  *
  * @author bongani
  */
-public interface OrderRepository extends repository <Order, Long>
+public interface OrderRepository extends JpaRepository <Order, Long>
 {
 
-    public void save(Order o);
-    
 }

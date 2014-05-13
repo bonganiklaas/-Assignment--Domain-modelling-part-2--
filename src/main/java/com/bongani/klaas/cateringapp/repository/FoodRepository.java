@@ -6,14 +6,13 @@
 
 package com.bongani.klaas.cateringapp.repository;
 import com.bongani.klaas.cateringapp.domain.Food;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
  *
  * @author bongani
  */
-public interface FoodRepository extends repository <Food, Long>
+public interface FoodRepository extends JpaRepository <Food, Long>
 {
 
-    public void save(Food f);
-    
 }

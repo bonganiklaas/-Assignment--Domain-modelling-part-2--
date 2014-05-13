@@ -6,12 +6,13 @@
 
 package com.bongani.klaas.cateringapp.repository;
 import com.bongani.klaas.cateringapp.domain.OrderLine;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
  *
  * @author bongani
  */
-public interface OrderLineRepository extends repository <OrderLine, Long>
+public interface OrderLineRepository extends JpaRepository <OrderLine, Long>
 {
     
 }

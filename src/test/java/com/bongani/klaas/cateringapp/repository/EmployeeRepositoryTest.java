@@ -23,7 +23,7 @@ import org.testng.annotations.Test;
  * @author bongani
  */
 public class EmployeeRepositoryTest {
-       public static ApplicationContext ctx;
+    public static ApplicationContext ctx;
     private Long id;
 
     private EmployeeRepository repo;

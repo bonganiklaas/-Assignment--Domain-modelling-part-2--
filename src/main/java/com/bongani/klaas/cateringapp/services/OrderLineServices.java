@@ -17,17 +17,9 @@ public interface OrderLineServices extends Customer <OrderLine,Long>
 
     public void save(OrderLine l);
 
-    public OrderLineServices();
-
-    public OrderLineServices();
-
-    public OrderLineServices();
-
-    public static class Builder {
-
-        public Builder(String bonganiklaasgmailcom) {
+    public static class Builder
+    {
+        public Builder(String email) {
         }
     }
-
-    
 }
